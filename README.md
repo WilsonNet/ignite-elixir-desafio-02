@@ -1,21 +1,22 @@
 # ListFilter
 
-**TODO: Add description**
+Challenge for Rocketseat's Ignite Elixir Course. 
 
-## Installation
+Challenge: Filter a list of strings returning the count of odd numbers.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `list_filter` to your list of dependencies in `mix.exs`:
+## Running
 
-```elixir
-def deps do
-  [
-    {:list_filter, "~> 0.1.0"}
-  ]
-end
-```
+*You need to have Elixir installed to run this code.*
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/list_filter](https://hexdocs.pm/list_filter).
+Type `iex -S mix` to enter in interactive mode.
 
+Then use `ListLength.call(list)`
+
+Example: `ListFilter.call(["1", "3", "6", "43", "banana", "6", "abc"])`
+
+
+## Test
+
+*You need to have Elixir installed to test this code.*
+
+You can test this package by using the command `mix test` in the root directory.
